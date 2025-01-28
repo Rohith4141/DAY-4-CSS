@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 40px; 
+
+
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+td:hover{
+    color: red;
+    background-color: blue;
+}
